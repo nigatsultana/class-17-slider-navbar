@@ -1,0 +1,30 @@
+body{
+    background-color: beige;
+}
+.row{
+    height: 500px;
+}
+.carousel-control-prev{
+    left: 89% !important;
+    bottom: 5% !important;
+}
+.carousel-control-next{
+    right: 2% !important;
+    bottom: 5% !important;
+}
+.c_prv,.c_next {
+    top: 85%;
+    bottom: 0;
+    width: 5%;
+}
+.c_button {
+    bottom: 65%;
+    right: 80%;
+    left: auto;
+    display: block;
+}
+.c_button [data-bs-target] {
+    width: 15px;
+    height: 15px;
+  
+}
